@@ -1,77 +1,38 @@
-# React + TypeScript + Vite
+# GeoVision
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+GeoVision is an early-stage software project focused on operational decision software.
 
-Currently, two official plugins are available:
+The goal is to help organizations make better decisions by turning fragmented operational, weather, business and energy data into forecasts, alerts, dashboards and planning support.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## First Product: Energy Operations
 
-## React Compiler
+GeoVision starts with **Energy Operations**, a focused product concept for energy teams.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+Energy Operations aims to help users:
 
-Note: This will impact Vite dev & build performances.
+- Forecast electricity demand
+- Understand demand patterns
+- Detect operational risks earlier
+- Monitor energy-related data in dashboards
+- Support planning decisions with clearer insights
 
-## Expanding the ESLint configuration
+The first proof of concept focuses on Belgian energy demand forecasting. It is designed to validate whether energy teams need a lightweight forecasting and decision-support product before GeoVision expands into a broader platform.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Long-Term Vision
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+GeoVision's long-term vision is to become a modular decision intelligence platform for operational systems.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+Future modules could support areas such as:
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- Agriculture operations
+- Infrastructure operations
+- Environmental intelligence
+- Geospatial and climate-sensitive planning
 
-```
+The current focus is deliberately narrow: validate one concrete product in energy first, then expand only after proving real customer value.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Current Stage
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+GeoVision is currently in the proof-of-concept and incubator validation stage.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
-```
+The next goal is to test the Energy Operations concept with potential users, measure forecasting value and explore whether it can become a repeatable SaaS product.
