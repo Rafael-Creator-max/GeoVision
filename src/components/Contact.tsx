@@ -16,7 +16,7 @@ export default function Contact() {
         <div className="flex flex-col sm:flex-row sm:flex-wrap gap-6 justify-center">
           <a
             href="mailto:rafael.pereztarira@student.vives.be"
-            className="flex items-center justify-center gap-3 px-6 py-4 bg-gray-50 rounded-lg border border-gray-200 hover:border-gray-300 transition-colors"
+            className="flex w-full items-center justify-center gap-3 px-4 py-4 bg-gray-50 rounded-lg border border-gray-200 hover:border-gray-300 transition-colors sm:w-auto sm:px-6"
           >
             <Mail className="text-gray-700" size={24} />
             <span className="text-gray-900 font-medium break-all">rafael.pereztarira@student.vives.be</span>
@@ -26,7 +26,7 @@ export default function Contact() {
             href="https://www.linkedin.com/in/stalin-perez-tarira-9b821a222"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center justify-center gap-3 px-6 py-4 bg-gray-50 rounded-lg border border-gray-200 hover:border-gray-300 transition-colors"
+            className="flex w-full items-center justify-center gap-3 px-4 py-4 bg-gray-50 rounded-lg border border-gray-200 hover:border-gray-300 transition-colors sm:w-auto sm:px-6"
           >
             <Briefcase className="text-gray-700" size={24} />
             <span className="text-gray-900 font-medium">Founder LinkedIn</span>
@@ -36,7 +36,7 @@ export default function Contact() {
             href="https://github.com/Rafael-Creator-max"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center justify-center gap-3 px-6 py-4 bg-gray-50 rounded-lg border border-gray-200 hover:border-gray-300 transition-colors"
+            className="flex w-full items-center justify-center gap-3 px-4 py-4 bg-gray-50 rounded-lg border border-gray-200 hover:border-gray-300 transition-colors sm:w-auto sm:px-6"
           >
             <ExternalLink className="text-gray-700" size={24} />
             <span className="text-gray-900 font-medium">GitHub Projects</span>

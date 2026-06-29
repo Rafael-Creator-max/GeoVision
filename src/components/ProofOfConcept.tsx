@@ -17,36 +17,34 @@ export default function ProofOfConcept() {
           </p>
         </div>
 
-        <div className="bg-white rounded-lg p-8 border border-gray-200">
+        <div className="bg-white rounded-lg p-5 sm:p-8 border border-gray-200">
           <h4 className="text-lg font-semibold text-gray-900 mb-8 text-center">
             Processing Pipeline
           </h4>
           
-          <div className="flex flex-col md:flex-row items-center justify-between gap-4">
+          <div className="hidden lg:flex items-center justify-between gap-3">
             {pipelineSteps.map((step, index) => (
-              <div key={index} className="flex items-center flex-1">
+              <div key={step} className="flex items-center flex-1 min-w-0">
                 <div className="flex-1 text-center">
-                  <div className="inline-block px-4 py-3 bg-gray-900 text-white rounded-lg font-medium">
+                  <div className="flex min-h-14 items-center justify-center px-4 py-3 bg-gray-900 text-white rounded-lg font-medium text-sm xl:text-base leading-snug">
                     {step}
                   </div>
                 </div>
                 {index < pipelineSteps.length - 1 && (
-                  <ArrowRight className="hidden md:block text-gray-400 mx-2" size={24} />
+                  <ArrowRight className="flex-shrink-0 text-gray-400 mx-1" size={22} />
                 )}
               </div>
             ))}
           </div>
 
-          <div className="flex flex-col items-center gap-4 mt-6 md:hidden">
+          <div className="flex flex-col gap-4 lg:hidden">
             {pipelineSteps.map((step, index) => (
-              <div key={index} className="flex items-center w-full">
-                <div className="flex-1 text-center">
-                  <div className="inline-block px-4 py-3 bg-gray-900 text-white rounded-lg font-medium">
-                    {step}
-                  </div>
+              <div key={step} className="flex flex-col items-center gap-3">
+                <div className="flex w-full min-h-12 items-center justify-center rounded-lg bg-gray-900 px-4 py-3 text-center text-sm font-medium leading-snug text-white sm:text-base">
+                  {step}
                 </div>
                 {index < pipelineSteps.length - 1 && (
-                  <ArrowRight className="text-gray-400 mx-2 rotate-90" size={24} />
+                  <ArrowRight className="text-gray-400 rotate-90" size={22} />
                 )}
               </div>
             ))}

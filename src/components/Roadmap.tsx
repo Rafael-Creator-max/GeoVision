@@ -17,10 +17,10 @@ export default function Roadmap() {
           {phases.map((item, index) => (
             <div
               key={index}
-              className="flex gap-6 p-6 bg-gray-50 rounded-lg border border-gray-200"
+              className="flex flex-col gap-4 p-5 sm:flex-row sm:gap-6 sm:p-6 bg-gray-50 rounded-lg border border-gray-200"
             >
               <div className="flex-shrink-0">
-                <div className="w-16 h-16 bg-gray-900 rounded-lg flex items-center justify-center text-white font-bold text-lg">
+                <div className="w-12 h-12 sm:w-16 sm:h-16 bg-gray-900 rounded-lg flex items-center justify-center text-white font-bold text-lg">
                   {index + 1}
                 </div>
               </div>
