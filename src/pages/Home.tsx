@@ -5,8 +5,8 @@ import PlatformModules from '../components/PlatformModules';
 import ProofOfConcept from '../components/ProofOfConcept';
 import IncubatorGoals from '../components/IncubatorGoals';
 import Roadmap from '../components/Roadmap';
-import Founder from '../components/Founder';
-import Contact from '../components/Contact';
+import Collaborators from '../components/Collaborators';
+import Members from '../components/Members';
 
 export default function Home() {
   return (
@@ -18,8 +18,11 @@ export default function Home() {
       <ProofOfConcept />
       <IncubatorGoals />
       <Roadmap />
-      <Founder />
-      <Contact />
+      {/* <Founder /> */}
+      {/* <Contact /> */}
+      <Members />
+      <Collaborators />
+      
     </>
   );
 }

@@ -4,5 +4,5 @@ export const navLinks = [
   { name: 'Proof', href: '#proof-of-concept' },
   { name: 'Validation', href: '#validation' },
   { name: 'Roadmap', href: '#roadmap' },
-  { name: 'Contact', href: '#contact' },
+  { name: 'Contact', href: '#members' },
 ];
