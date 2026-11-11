@@ -9,7 +9,7 @@ export default function Roadmap() {
             Product Roadmap
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            GeoVision starts narrow with Energy Operations, then grows into a modular platform for operational decision software.
+            Our proposed roadmap starts with energy data foundations and customer validation. Each phase is a development direction, with priorities shaped by what we learn from potential users.
           </p>
         </div>
 

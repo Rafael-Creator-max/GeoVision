@@ -11,10 +11,10 @@ export default function Collaborators() {
       <div className="mx-auto max-w-7xl">
         <div className="mx-auto mb-12 max-w-3xl text-center">
           <h2 id="collaborators-heading" className="mb-4 text-3xl font-bold text-gray-900 sm:text-4xl">
-            Project Collaborators
+            Programmes & Ecosystem
           </h2>
           <p className="text-lg leading-relaxed text-gray-600">
-            The people and organizations contributing their knowledge, feedback and expertise to GeoVision.
+            Entrepreneurship programmes offering learning, coaching and venture development resources for early-stage founders.
           </p>
         </div>
 
@@ -60,7 +60,7 @@ export default function Collaborators() {
               Interested in contributing to GeoVision?
             </p>
             <a
-              href="#contact"
+              href="#members"
               className="mt-6 inline-flex items-center gap-2 rounded-lg bg-gray-900 px-6 py-3 font-medium text-white transition-colors hover:bg-gray-800 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-gray-900"
             >
               Become a collaborator <ArrowUpRight size={18} aria-hidden="true" />

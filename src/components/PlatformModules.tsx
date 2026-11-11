@@ -6,10 +6,10 @@ export default function PlatformModules() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-            Energy Operations
+            Energy Operations Features
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            The first GeoVision product is focused on one concrete workflow: helping energy teams forecast demand and make better operational decisions.
+            These proposed capabilities guide our early development. We are validating which data solutions can provide practical value for energy teams.
           </p>
         </div>
 

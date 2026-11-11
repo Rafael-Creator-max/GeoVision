@@ -3,22 +3,22 @@ import { Bell, GitBranch, LayoutDashboard, TrendingUp } from 'lucide-react';
 export const modules = [
   {
     icon: TrendingUp,
-    title: 'Demand Forecasting',
-    description: 'Short-term and medium-term electricity demand forecasts based on historical load, calendar patterns and weather signals.',
+    title: 'Data Integration',
+    description: 'Bringing together energy, weather, operational and external datasets into consistent, usable information.',
   },
   {
     icon: Bell,
-    title: 'Alerts',
-    description: 'Operational warnings for expected demand peaks, unusual consumption patterns and forecast deviations.',
+    title: 'Business Intelligence',
+    description: 'Interactive dashboards, performance indicators and analytical reporting for energy-related decisions.',
   },
   {
     icon: LayoutDashboard,
-    title: 'Operational Dashboards',
-    description: 'Clear views for demand, weather impact, forecast accuracy and planning metrics.',
+    title: 'Data Products & Automation',
+    description: 'Reusable datasets, reporting workflows and analytical services that improve access to information.',
   },
   {
     icon: GitBranch,
-    title: 'Scenario Planning',
-    description: 'What-if analysis for weather changes, demand spikes and future operational planning.',
+    title: 'Advanced Analytics',
+    description: 'Exploring predictive models, forecasting, anomaly detection and scenario analysis for more sophisticated decision support.',
   },
 ];

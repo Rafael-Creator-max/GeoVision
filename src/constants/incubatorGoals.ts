@@ -1,14 +1,14 @@
 export const goals = [
   {
-    title: 'Validate the customer segment',
-    description: 'Interview energy teams, analysts and operators to understand where forecasting and planning workflows are most painful.',
+    title: 'Understand Customer Challenges',
+    description: 'Interview organizations and professionals to identify problems involving fragmented data, reporting, analytics and operational information.',
   },
   {
-    title: 'Measure forecasting value',
-    description: 'Compare the Energy Operations proof of concept against simple baseline models and track whether better forecasts support better decisions.',
+    title: 'Validate Practical Data Solutions',
+    description: 'Explore which dashboards, automated workflows, datasets and analytical products provide meaningful value.',
   },
   {
-    title: 'Shape a repeatable SaaS product',
-    description: 'Turn the prototype into a focused product with reusable data flows, dashboards, alerts and a clear path to recurring revenue.',
+    title: 'Develop a Repeatable Business Model',
+    description: 'Identify opportunities to build reusable B2B data products, establish design partnerships and validate willingness to pay.',
   },
 ];

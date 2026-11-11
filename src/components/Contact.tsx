@@ -6,10 +6,10 @@ export default function Contact() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-            Build With Us
+            Let's Talk About Your Data
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            GeoVision is looking for mentors, pilot partners and early conversations with people working in energy planning, forecasting, data and operations.
+            We welcome potential customers for discovery interviews, organizations interested in design or pilot partnerships, and technical and business contributors. Share your data integration, reporting or analytics challenges and explore how we could work together.
           </p>
         </div>
 

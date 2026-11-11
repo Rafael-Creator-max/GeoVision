@@ -10,7 +10,7 @@ export default function Solution() {
               First Product: Energy Operations
             </h2>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Energy Operations is the first GeoVision module: a software product that combines consumption data, weather signals and operational context to produce demand forecasts, alerts, dashboards and scenario planning. The long-term vision is a modular decision intelligence platform for operational systems, but the first market is deliberately focused on energy.
+              Energy Operations is GeoVision's initial product direction: a modular collection of data and analytics solutions for the energy sector. We aim to integrate energy and operational datasets, process and standardize information, and make it accessible through dashboards, automated reporting, reusable data products and APIs. Advanced forecasting is a possible future extension, guided by customer needs.
             </p>
           </div>
 

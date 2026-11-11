@@ -9,7 +9,7 @@ export default function IncubatorGoals() {
             What We Are Validating
           </h2>
           <p className="text-lg text-gray-600 leading-relaxed">
-            During the incubator phase, GeoVision aims to validate whether energy teams need a lightweight forecasting and decision-support product before expanding into a broader operational software platform.
+            At this early stage, we are exploring customer needs in the energy sector to understand where data engineering, business intelligence and reusable data products can create value and support a sustainable B2B business.
           </p>
         </div>
 

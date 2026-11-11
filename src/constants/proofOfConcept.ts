@@ -1,7 +1,7 @@
 export const pipelineSteps = [
-  'Data sources',
-  'Data engineering',
-  'Forecasting model',
-  'Dashboard',
-  'Decision support',
+  'Data Sources',
+  'Data Engineering',
+  'Data Storage & Processing',
+  'Analytics & Data Products',
+  'Decision Support',
 ];

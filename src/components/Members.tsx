@@ -14,7 +14,7 @@ export default function Members() {
             Meet the Team
           </h2>
           <p className="text-lg leading-relaxed text-gray-600">
-            The people behind GeoVision, combining data engineering, AI, and business expertise to build smarter energy intelligence solutions.
+            The people behind GeoVision, combining data engineering, business intelligence, analytics and business development to explore practical data solutions, starting with the energy sector.
           </p>
         </div>
 

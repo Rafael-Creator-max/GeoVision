@@ -1,3 +1,5 @@
+import PrivacyNotice from './PrivacyNotice';
+
 export default function Footer() {
   return (
     <footer className="bg-gray-900 text-white py-8 px-4 sm:px-6 lg:px-8">
@@ -5,6 +7,7 @@ export default function Footer() {
         <p className="text-gray-400">
           © {new Date().getFullYear()} GeoVision. An early-stage venture under development.
         </p>
+        <PrivacyNotice />
       </div>
     </footer>
   );

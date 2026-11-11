@@ -7,13 +7,13 @@ export default function ProofOfConcept() {
       <div className="max-w-7xl mx-auto">
         <div className="max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">
-            Proof of Concept
+            Our Technical Approach
           </h2>
           <h3 className="text-2xl font-semibold text-gray-900 mb-4">
-            Belgian Energy Demand Forecasting
+            From Data to Insights
           </h3>
           <p className="text-lg text-gray-600 leading-relaxed">
-            The first proof of concept forecasts Belgian electricity demand using historical load data, feature engineering, machine learning models and dashboard visualisation. It is designed to validate the Energy Operations module before expanding GeoVision into a broader operational decision platform.
+            Our approach starts with collecting and integrating raw data, then cleaning and standardizing it through automated pipelines. Reliable data infrastructure, storage and processing provide the foundation for dashboards, KPI monitoring, automated reports and reusable data products. We aim to make information structured, accessible and useful for operational and business decisions.
           </p>
         </div>
 

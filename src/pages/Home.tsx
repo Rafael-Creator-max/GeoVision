@@ -7,6 +7,7 @@ import IncubatorGoals from '../components/IncubatorGoals';
 import Roadmap from '../components/Roadmap';
 import Collaborators from '../components/Collaborators';
 import Members from '../components/Members';
+// import Contact from '../components/Contact';
 
 export default function Home() {
   return (
@@ -19,9 +20,9 @@ export default function Home() {
       <IncubatorGoals />
       <Roadmap />
       {/* <Founder /> */}
-      {/* <Contact /> */}
       <Members />
       <Collaborators />
+      {/* <Contact /> */}
       
     </>
   );

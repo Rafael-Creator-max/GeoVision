@@ -1,22 +1,22 @@
 export const phases = [
   {
     phase: 'Phase 1',
-    title: 'Energy Operations MVP',
-    description: 'Build demand forecasting, alerts and dashboards using Belgian electricity demand and weather data.',
+    title: 'Data Foundation',
+    description: 'Develop reliable data ingestion, integration and processing capabilities focused on energy-related datasets.',
   },
   {
     phase: 'Phase 2',
-    title: 'Pilot validation',
-    description: 'Test the product with energy-focused users, compare forecast accuracy against baselines and validate willingness to pay.',
+    title: 'Analytics & Validation',
+    description: 'Build analytical dashboards and reporting prototypes, and validate potential applications with industry stakeholders.',
   },
   {
     phase: 'Phase 3',
-    title: 'Modular SaaS platform',
-    description: 'Add multi-site support, recurring subscriptions, API access, scenario planning and automated reports.',
+    title: 'Commercial Data Products',
+    description: 'Explore reusable APIs, curated datasets, subscription-based dashboards and recurring reporting solutions.',
   },
   {
     phase: 'Phase 4',
-    title: 'Operational decision intelligence',
-    description: 'Expand into future modules such as Agriculture Operations, Infrastructure Operations and Environmental Intelligence.',
+    title: 'Advanced Intelligence & Expansion',
+    description: 'Extend the platform with predictive analytics and potentially additional industries after validating the initial energy use cases.',
   },
 ];

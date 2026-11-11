@@ -16,11 +16,11 @@ export default function Hero() {
           GeoVision
         </p>
         <h1 className="text-3xl sm:text-5xl lg:text-6xl font-bold mb-6">
-          Operational decision software for energy teams
+          Turning complex data into actionable intelligence.
         </h1>
         
         <p className="text-base sm:text-xl text-gray-200 max-w-3xl mx-auto mb-10">
-          GeoVision builds software that turns operational, weather and business data into forecasts, alerts, dashboards and planning decisions. Our first product is Energy Operations, focused on energy demand forecasting.
+          GeoVision is an early-stage B2B data engineering, business intelligence and analytics startup. We help organizations integrate information, monitor performance and make better decisions. Starting with the energy sector, we're developing reusable data products, BI tools and advanced analytical capabilities.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -32,10 +32,10 @@ export default function Hero() {
             <ArrowRight className="ml-2" size={20} />
           </a>
           <a
-            href="#contact"
+            href="#members"
             className="inline-flex items-center justify-center px-6 sm:px-8 py-3 bg-transparent text-white font-medium rounded-lg border border-white/50 hover:bg-white/10 transition-colors"
           >
-            Contact
+            Discuss Your Data Challenges
           </a>
         </div>
       </div>

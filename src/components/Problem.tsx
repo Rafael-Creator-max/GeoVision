@@ -7,7 +7,7 @@ export default function Problem() {
             The Energy Operations Challenge
           </h2>
           <p className="text-lg text-gray-600 leading-relaxed">
-            Energy teams need to plan around volatile demand, weather changes, electrification, renewable generation and fragmented operational data. Many still rely on spreadsheets, disconnected dashboards or manual reports, making it difficult to anticipate peaks, spot anomalies and act before costs increase.
+            Energy teams often work with fragmented operational data spread across disconnected systems and spreadsheets. Manual processing and reporting make it difficult to combine internal information with external energy and weather data. The result is limited visibility into business performance and analytical insights that are hard to access when decisions need to be made.
           </p>
         </div>
       </div>
